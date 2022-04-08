@@ -20,6 +20,7 @@ Shader "Unlit/Mat1"
             #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
+            #include "Lighting.cginc"
 
             // Comes from mesh buffer
             // How to input from other buffers ??
@@ -67,7 +68,8 @@ Shader "Unlit/Mat1"
                 //UNITY_APPLY_FOG(i.fogCoord, col);
                 // alpha not used
                 // How to change the blend func
-                return float4(i.normal.xyz, 0);
+                float3 lightFallof = dot(i.normal,  _WorldSpaceLightPos0.xyz);
+                return float4(_LightColor0.xyz * lightFallof, 0);
             }
             ENDCG
         }

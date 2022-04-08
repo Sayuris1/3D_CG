@@ -269,3 +269,16 @@ Received Import Request.
   path: Assets/Materials/Mat1/Mat1.shader
   artifactKey: Guid(aa964661e34b7d046af1713ac773bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Mat1/Mat1.shader using Guid(aa964661e34b7d046af1713ac773bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bafbc0d4e6b9c0744aab01709d3ae4') in 0.017017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 872.285838 seconds.
+  path: Assets/Materials/Mat1/Mat1.shader
+  artifactKey: Guid(aa964661e34b7d046af1713ac773bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat1/Mat1.shader using Guid(aa964661e34b7d046af1713ac773bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107b1be7adb1fcb27c5c98ffdd886e1b') in 0.002635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.876781 seconds.
+  path: Assets/Materials/Mat1/Mat1.shader
+  artifactKey: Guid(aa964661e34b7d046af1713ac773bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat1/Mat1.shader using Guid(aa964661e34b7d046af1713ac773bde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88c80cfcc8e2c9d2dc4119f8cd8f097') in 0.004590 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
