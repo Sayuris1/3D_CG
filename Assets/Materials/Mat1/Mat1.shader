@@ -30,7 +30,7 @@ Shader "Unlit/Mat1"
                 float2 uv : TEXCOORD0;
             };
 
-            // varying
+            // varyinga
             // vert 2 frag, who tha fuck named this.
             // miss glsl already
             struct v2f {
