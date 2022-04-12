@@ -1,6 +1,7 @@
 Shader "Unlit/Mat1"
 {
     // Are those uniforms ??
+    // Check if range works
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
